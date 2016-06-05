@@ -1,7 +1,7 @@
 
 var Canvas = require('canvas')
   , Image = Canvas.Image
-  , qrcode = require('../src/qrcode.js')(Canvas)
+  , qrcode = require('../../src/qrcode.js')(Canvas)
 
 var filename = __dirname + '/qrcode.png'
 
